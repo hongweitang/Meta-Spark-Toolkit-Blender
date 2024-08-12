@@ -56,7 +56,10 @@ class OBJECT_OT_SparkOperator_ExportForSparkAR(
             export_image_format="AUTO",
             # Mesh Data
             export_normals=True,
-            export_colors=True,
+
+            # * Blender 4.2 doesn't support this setting anymore
+            # export_colors=True,
+            
             # Deformers
             export_skins=True,
             export_morph=True,
